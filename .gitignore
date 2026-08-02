@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# WoW packaging tools (BigWigs packager, etc.), in case they're used later
+.pkgmeta
+/.release/

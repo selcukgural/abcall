@@ -1,0 +1,13 @@
+## Interface: 11509
+## Title: |cff2ecc71AB|r Call
+## Notes: One-click base-defense alerts for Arathi Basin.
+## Author: selcuk
+## Version: 1.0.0
+## SavedVariables: ABCallDB
+## IconTexture: Interface\Icons\INV_BannerPVP_03
+## DefaultState: Enabled
+
+Media.lua
+Alerts.lua
+UI.lua
+Core.lua

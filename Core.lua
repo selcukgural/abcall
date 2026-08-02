@@ -314,11 +314,10 @@ eventFrame:SetScript("OnEvent", function(_, event, arg1)
 end)
 
 local function PrintHelp()
-	print("|cff2ecc71AB Call|r commands: /ac (toggle), /ac lock, /ac unlock, /ac reset")
+	print("|cff2ecc71AB Call|r commands: /abc (toggle), /abc lock, /abc unlock, /abc reset")
 end
 
-SLASH_ABCALL1 = "/ac"
-SLASH_ABCALL2 = "/abc"
+SLASH_ABCALL1 = "/abc"
 SlashCmdList["ABCALL"] = function(msg)
 	msg = strtrim(msg or ""):lower()
 

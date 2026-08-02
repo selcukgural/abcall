@@ -110,10 +110,10 @@ Click the gear icon in the title bar to open Settings:
 
 | Command | Effect |
 |---|---|
-| `/ac` or `/abc` | Toggle the panel on/off |
-| `/ac lock` | Lock the panel in place (can't be dragged) |
-| `/ac unlock` | Unlock it again |
-| `/ac reset` | Reset the panel's position |
+| `/abc` | Toggle the panel on/off |
+| `/abc lock` | Lock the panel in place (can't be dragged) |
+| `/abc unlock` | Unlock it again |
+| `/abc reset` | Reset the panel's position |
 
 ## Good to know
 

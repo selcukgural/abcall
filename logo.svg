@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c130a"/>
+      <stop offset="55%" stop-color="#120c06"/>
+      <stop offset="100%" stop-color="#0a0603"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="36%" r="65%">
+      <stop offset="0%" stop-color="#4a3410" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4d789"/>
+      <stop offset="50%" stop-color="#ffe9ad"/>
+      <stop offset="100%" stop-color="#e0b25a"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="56" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="56" fill="url(#glow)"/>
+
+  <!-- gold frame -->
+  <rect x="18" y="18" width="476" height="476" rx="42" fill="none" stroke="#8a6a2e" stroke-width="4" opacity="0.9"/>
+  <rect x="32" y="32" width="448" height="448" rx="32" fill="none" stroke="#4a3714" stroke-width="2" opacity="0.8"/>
+
+  <!-- mark -->
+  <text x="256" y="235" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="190" font-weight="700" letter-spacing="2" fill="url(#gold)" filter="url(#soft)">AB</text>
+  <text x="256" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="52" font-weight="700" letter-spacing="14" fill="#cbb98f">CALL</text>
+
+  <line x1="176" y1="330" x2="336" y2="330" stroke="#6b5324" stroke-width="2" opacity="0.7"/>
+
+  <!-- the 5 bases, using the addon's own accent colors -->
+  <g>
+    <circle cx="152" cy="380" r="19" fill="#4cb0e6"/>
+    <circle cx="204" cy="380" r="19" fill="#8ccc59"/>
+    <circle cx="256" cy="380" r="19" fill="#cc8c40"/>
+    <circle cx="308" cy="380" r="19" fill="#cc5959"/>
+    <circle cx="360" cy="380" r="19" fill="#e6c033"/>
+  </g>
+
+  <text x="256" y="440" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="17" fill="#8a7a54" opacity="0.85">Arathi Basin Alerts</text>
+</svg>

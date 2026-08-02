@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c130a"/>
+      <stop offset="55%" stop-color="#120c06"/>
+      <stop offset="100%" stop-color="#0a0603"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#4a3410" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4d789"/>
+      <stop offset="50%" stop-color="#ffe9ad"/>
+      <stop offset="100%" stop-color="#e0b25a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- outer gold frame, echoing the addon's Classic theme border -->
+  <rect x="14" y="14" width="1172" height="272" rx="10" fill="none" stroke="#8a6a2e" stroke-width="2" opacity="0.9"/>
+  <rect x="22" y="22" width="1156" height="256" rx="8" fill="none" stroke="#4a3714" stroke-width="1" opacity="0.8"/>
+
+  <!-- title -->
+  <text x="600" y="130" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="86" font-weight="700" letter-spacing="6" fill="url(#gold)" filter="url(#soft)">AB CALL</text>
+
+  <!-- subtitle -->
+  <text x="600" y="170" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="22" fill="#cbb98f" opacity="0.9">Arathi Basin base-defense alerts for WoW Classic Era</text>
+
+  <!-- the 5 bases, using the addon's own accent colors -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="600">
+    <!-- Stables -->
+    <g transform="translate(300,220)">
+      <circle r="15" fill="#4cb0e6"/>
+      <text y="5" text-anchor="middle" fill="#0a0603">S</text>
+      <text y="34" text-anchor="middle" fill="#d8c9a3" font-size="13">Stables</text>
+    </g>
+    <!-- Farm -->
+    <g transform="translate(450,220)">
+      <circle r="15" fill="#8ccc59"/>
+      <text y="5" text-anchor="middle" fill="#0a0603">F</text>
+      <text y="34" text-anchor="middle" fill="#d8c9a3" font-size="13">Farm</text>
+    </g>
+    <!-- Lumber Mill -->
+    <g transform="translate(600,220)">
+      <circle r="15" fill="#cc8c40"/>
+      <text y="5" text-anchor="middle" fill="#0a0603">L</text>
+      <text y="34" text-anchor="middle" fill="#d8c9a3" font-size="13">Lumber Mill</text>
+    </g>
+    <!-- Blacksmith -->
+    <g transform="translate(750,220)">
+      <circle r="15" fill="#cc5959"/>
+      <text y="5" text-anchor="middle" fill="#0a0603">B</text>
+      <text y="34" text-anchor="middle" fill="#d8c9a3" font-size="13">Blacksmith</text>
+    </g>
+    <!-- Gold Mine -->
+    <g transform="translate(900,220)">
+      <circle r="15" fill="#e6c033"/>
+      <text y="5" text-anchor="middle" fill="#0a0603">G</text>
+      <text y="34" text-anchor="middle" fill="#d8c9a3" font-size="13">Gold Mine</text>
+    </g>
+  </g>
+</svg>

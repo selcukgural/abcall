@@ -1,5 +1,7 @@
 # AB Call
 
+![AB Call](banner.svg)
+
 A lightweight **World of Warcraft Classic Era** addon for calling out incoming
 enemies and base status in **Arathi Basin**, built entirely on Classic
 Era-safe APIs.

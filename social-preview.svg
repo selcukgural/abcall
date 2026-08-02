@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c130a"/>
+      <stop offset="55%" stop-color="#120c06"/>
+      <stop offset="100%" stop-color="#0a0603"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="34%" r="65%">
+      <stop offset="0%" stop-color="#4a3410" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4d789"/>
+      <stop offset="50%" stop-color="#ffe9ad"/>
+      <stop offset="100%" stop-color="#e0b25a"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+
+  <!-- outer gold frame, echoing the addon's Classic theme border -->
+  <rect x="24" y="24" width="1232" height="592" rx="14" fill="none" stroke="#8a6a2e" stroke-width="3" opacity="0.9"/>
+  <rect x="38" y="38" width="1204" height="564" rx="10" fill="none" stroke="#4a3714" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- title -->
+  <text x="640" y="280" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="150" font-weight="700" letter-spacing="10" fill="url(#gold)" filter="url(#soft)">AB CALL</text>
+
+  <!-- subtitle -->
+  <text x="640" y="345" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="34" fill="#cbb98f" opacity="0.9">Arathi Basin base-defense alerts for WoW Classic Era</text>
+
+  <line x1="440" y1="390" x2="840" y2="390" stroke="#6b5324" stroke-width="2" opacity="0.7"/>
+
+  <!-- the 5 bases, using the addon's own accent colors -->
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">
+    <g transform="translate(330,470)">
+      <circle r="26" fill="#4cb0e6"/>
+      <text y="9" text-anchor="middle" fill="#0a0603">S</text>
+      <text y="56" text-anchor="middle" fill="#d8c9a3" font-size="20" font-weight="400">Stables</text>
+    </g>
+    <g transform="translate(505,470)">
+      <circle r="26" fill="#8ccc59"/>
+      <text y="9" text-anchor="middle" fill="#0a0603">F</text>
+      <text y="56" text-anchor="middle" fill="#d8c9a3" font-size="20" font-weight="400">Farm</text>
+    </g>
+    <g transform="translate(680,470)">
+      <circle r="26" fill="#cc8c40"/>
+      <text y="9" text-anchor="middle" fill="#0a0603">L</text>
+      <text y="56" text-anchor="middle" fill="#d8c9a3" font-size="20" font-weight="400">Lumber Mill</text>
+    </g>
+    <g transform="translate(855,470)">
+      <circle r="26" fill="#cc5959"/>
+      <text y="9" text-anchor="middle" fill="#0a0603">B</text>
+      <text y="56" text-anchor="middle" fill="#d8c9a3" font-size="20" font-weight="400">Blacksmith</text>
+    </g>
+    <g transform="translate(1030,470)">
+      <circle r="26" fill="#e6c033"/>
+      <text y="9" text-anchor="middle" fill="#0a0603">G</text>
+      <text y="56" text-anchor="middle" fill="#d8c9a3" font-size="20" font-weight="400">Gold Mine</text>
+    </g>
+  </g>
+
+  <text x="640" y="600" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif"
+        font-size="18" fill="#8a7a54" opacity="0.8">github.com/selcukgural/abcall</text>
+</svg>
